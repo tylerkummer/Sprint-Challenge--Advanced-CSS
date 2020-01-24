@@ -160,6 +160,15 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navbar {
+  margin: 1.5rem;
+}
+.navbar a {
+  padding: 2rem;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #454A59;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +178,21 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.top {
+  background-color: #F6F6F6;
+  border-color: #F1F1F1;
+}
+.top .welcome {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  align-items: center;
+}
+.top .welcome h1 {
+  font-size: 4rem;
+  margin-top: 2rem;
 }
 .home .intro h2 {
   padding: 15px;
